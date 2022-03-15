@@ -21,6 +21,10 @@ logs:
 network-create:
 	docker network create ${NETWORK}
 
+# make network-remove NETWORK=external-network-name
+network-remove:
+	docker network rm ${NETWORK}
+
 # make console SERVICE=service-name
 console:
 	docker-compose exec ${SERVICE} bash

@@ -54,3 +54,8 @@ volumes:
     external: true
   nifi_logs:
     external: true
+
+networks:
+  default:
+    external:
+      name: poc
