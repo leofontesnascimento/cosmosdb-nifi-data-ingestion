@@ -33,11 +33,19 @@ docker ps
 ## Access Services
 
 ### Cosmos DB
+1. On you browser access:
 ```
 https://localhost:8081/_explorer/index.html
 ```
 
 ### Apache NiFi
+1. On you browser access:
 ```
-http://localhost:8443/nifi
+https://localhost:9443/nifi
+```
+
+2. Put the following credentials
+```
+user: admin
+password: ctsBtRBKHRAx69EqUghvvgEvjnaLjFEB
 ```
